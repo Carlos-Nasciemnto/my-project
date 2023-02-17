@@ -1,23 +1,35 @@
 import React from 'react'
 import '../src/index.css'
-import Header from './header/header'
+import Header from './components/Header'
+import Skill from './components/Skill'
+import Sobre from './components/Sobre'
+import Footer from './components/Footer'
+import Contato from './components/Contato'
+import Projetos from './components/Projetos'
+import Inicio from './components/Inicio.js'
+
+//router
+
+import { BrowserRouter, Routes, Route} from 'react-router-dom'
+
 
 function App() {
   return (
     <main>
-      <div className='bg-slate-800 p-4'>
-        <Header />
-        <div className='relative h-45 w-45'>
-          <img src='card.png' alt='foto perfil' />
-        </div>
-        <div className='display inline-blocks flow-root'>
-          <p className='text-slate-200'>Olá, Eu sou!</p>
-          <h1 className='text-green-500'>Carlos Nascimento</h1>
-          <p className='text-slate-200'>Desenvolvedor Full Stack</p>
-        </div>
+      <div className='bg-slate-800'>       
+        <BrowserRouter>
+          <Header />                 
+          <Routes>
+            <Route path='/' element={ <Inicio />}/>
+            <Route path='/sobre' element={ <Sobre />} />
+            <Route path='/skill' element={ <Skill />} />
+            <Route path='/projetos' element={ <Projetos />} />
+            <Route path='/contato' element={ <Contato />} />            
+          </Routes>
+          <Footer />
+        </BrowserRouter>       
       </div>
     </main>
-
   )
 }
 
