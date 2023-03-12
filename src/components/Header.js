@@ -4,15 +4,6 @@ import { Link } from "react-router-dom"
 
 
 const Header = () => {
-
-  const myElement = useRef(null)
-  function scrollToMyElement() {
-    myElement.current.scrollIntoView({
-      behavior: 'smooth',
-      block: 'center',
-      inline: 'start',
-    })
-  }
     return(
         <header className="text-gray-600 body-font">
         <div className="flex flex-wrap bg-slate-500 p-5 flex-col md:flex-row items-center">
@@ -23,8 +14,8 @@ const Header = () => {
             <span className="ml-3 text-xl text-green-500">Carlos Nascimento</span>
           </a>
           <nav className="md:mr-auto md:ml-4 md:py-1 md:pl-4 md:border-l md:border-gray-400	flex flex-wrap items-center text-base justify-center">
-            <Link to='/' ref={myElement} className="mr-5 hover:text-gray-900 text-white" >Inicio</Link>
-            <Link to='/sobre'  className="mr-5 hover:text-gray-900 text-white">Sobre</Link>
+            <Link to='/' className="mr-5 hover:text-gray-900 text-white" >Inicio</Link>
+            <Link to='/sobre' className="mr-5 hover:text-gray-900 text-white">Sobre</Link>
             <Link to='/skill' className="mr-5 hover:text-gray-900 text-white">Skill</Link>
             <Link to='/projetos' className="mr-5 hover:text-gray-900 text-white">Projeto</Link>
             <Link to='/contato' className="mr-5 hover:text-gray-900 text-white">Contato</Link>

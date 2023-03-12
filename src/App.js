@@ -20,11 +20,11 @@ function App() {
         <BrowserRouter>
           <Header />                 
           <Routes>
-            <Route path='/' element={ <Inicio />}/>
-            <Route path='/sobre' element={ <Sobre />} />
-            <Route path='/skill' element={ <Skill />} />
-            <Route path='/projetos' element={ <Projetos />} />
-            <Route path='/contato' element={ <Contato />} />            
+            <Route path='/' element={ <Inicio /> }/>
+            <Route path='/sobre' element={ <Sobre /> }/>
+            <Route path='/skill' element={ <Skill /> }/>
+            <Route path='/projetos' element={ <Projetos /> }/>
+            <Route path='/contato' element={ <Contato /> }/>            
           </Routes>
           <Footer />
         </BrowserRouter>       

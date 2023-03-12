@@ -1,7 +1,7 @@
 
 const Sobre = () => {
   return (
-    <div className='bg-slate-800 text-lg p-h-15 pl-20'>
+    <div className='bg-slate-800 text-lg p-20 p-h-15 pl-20'>
         <span className="text-green-500 text-lg border-b-2">Sobre</span>
         <p className="text-slate-200 text-justify pt-5 w-5/6"> 
            Olá! Me chamo Carlos Nascimento, Graduado em Sistema da Informação.
