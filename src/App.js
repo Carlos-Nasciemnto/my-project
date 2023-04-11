@@ -12,7 +12,6 @@ import Inicio from './components/Inicio.js'
 
 import { BrowserRouter, Routes, Route} from 'react-router-dom'
 
-
 function App() {
   return (
     <main>
@@ -32,5 +31,4 @@ function App() {
     </main>
   )
 }
-
 export default App

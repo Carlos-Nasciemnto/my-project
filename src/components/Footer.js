@@ -29,11 +29,10 @@ const Footer = () => {
                   <li>
                     <a className="text-gray-400 hover:text-white">Contato</a>
                   </li>
-
                 </nav>
               </div>
               <div className="lg:w-1/4 md:w-1/2 w-full px-4">
-                <h2 className="title-font font-medium text-white tracking-widest text-sm mb-3">CATEGORIAS</h2>
+                <h2 className="title-font font-medium text-white tracking-widest text-sm mb-3">SOFT SKILL</h2>
                 <nav className="list-none mb-10">
                   <li>
                     <a className="text-gray-400 hover:text-white">React</a>
@@ -42,15 +41,15 @@ const Footer = () => {
                     <a className="text-gray-400 hover:text-white">Javascript</a>
                   </li>
                   <li>
-                    <a className="text-gray-400 hover:text-white">HTML</a>
+                    <a className="text-gray-400 hover:text-white">Nextjs</a>
                   </li>
                   <li>
-                    <a className="text-gray-400 hover:text-white">Tailwindcss</a>
+                    <a className="text-gray-400 hover:text-white">Nodejs</a>
                   </li>
                 </nav>
               </div>
               <div className="lg:w-1/4 md:w-1/2 w-full px-4">
-                <h2 className="title-font font-medium text-white tracking-widest text-sm mb-3">CATEGORIAS</h2>
+                <h2 className="title-font font-medium text-white tracking-widest text-sm mb-3">SOFT SKIL</h2>
                 <nav className="list-none mb-10">
                   <li>
                     <a className="text-gray-400 hover:text-white">Nextjs</a>
@@ -67,19 +66,19 @@ const Footer = () => {
                 </nav>
               </div>
               <div className="lg:w-1/4 md:w-1/2 w-full px-4">
-                <h2 className="title-font font-medium text-white tracking-widest text-sm mb-3">CATEGORIAS</h2>
+                <h2 className="title-font font-medium text-white tracking-widest text-sm mb-3">SOFT SKILL</h2>
                 <nav className="list-none mb-10">
                   <li>
                     <a className="text-gray-400 hover:text-white">CSS</a>
                   </li>
                   <li>
+                    <a className="text-gray-400 hover:text-white">HTML</a>
+                  </li>
+                  <li>
                     <a className="text-gray-400 hover:text-white">Bootstrap</a>
                   </li>
                   <li>
-                    <a className="text-gray-400 hover:text-white">Nodejs</a>
-                  </li>
-                  <li>
-                    <a className="text-gray-400 hover:text-white">Deploy</a>
+                    <a className="text-gray-400 hover:text-white">Tailwindcss</a>
                   </li>
                 </nav>
               </div>

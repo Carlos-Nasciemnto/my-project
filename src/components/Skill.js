@@ -8,7 +8,7 @@ const Skill = () => {
                   <span className="text-green-500 text-lg border-b-2">Skill</span>
                 <div className="flex flex-wrap -m-4 p-10">
                         <div className="lg:w-1/4 md:w-1/2 p-4 w-full">                     
-                            <img alt="react" className="block relative h-48 border-2 border-sky-500 rounded overflow-hidden object-cover object-center w-full h-full block" src="react4.png"/>          
+                            <img alt="react" className="block relative h-48 border-2  border-sky-500 rounded overflow-hidden object-cover object-center w-full h-full block" src="react4.png"/>          
                         </div>
                             <div className="lg:w-1/4 md:w-1/2 p-4 w-full">            
                                 <img alt="next" className="block relative h-48 border-2 border-sky-500 rounded overflow-hidden object-cover object-center w-full h-full block" src="next.png"/>            
