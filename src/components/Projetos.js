@@ -9,7 +9,7 @@ const Projetos = () => {
           <div className="bg-gray-500 lg:max-w-lg lg:w-full md:w-1/2 w-5/6 md:mb-0 mb-10">
             <img
               className="bg-gray-900"
-              alt="advpalavras"
+              alt="advpalavras" 
               src="adivinhaPalavras.png"
             />
           </div>
